@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: app
+    env: python
+    repo: https://github.com/<your_repo>
+    branch: main
+    runCommand: gunicorn app:app
