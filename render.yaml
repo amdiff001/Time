@@ -2,6 +2,6 @@ services:
   - type: web
     name: app
     env: python
-    repo: https://github.com/<your_repo>
+    repo: https://github.com/amdiff001/Time/tree/main
     branch: main
     runCommand: gunicorn app:app
